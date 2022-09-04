@@ -1,0 +1,81 @@
+html {
+  font-family: "Helvetica";
+  color: #444;
+  background-color: #e5e5e5;
+  height: 100vh;
+  padding: 2rem;
+}
+
+body {
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.city {
+  text-align: left;
+}
+
+.info {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  width: 50vw;
+  margin-left: 25vw;
+  padding-top: 2vw;
+  padding-left: 13vw;
+}
+
+.github_profile {
+  width: 100px;
+  height: 40px;
+  margin-left: 25vw;
+  padding-left: 19vw;
+}
+
+.city_name {
+  border-radius: 25px;
+  border: 1px solid #73ad21;
+  width: 300px;
+  height: 30px;
+}
+
+.btn_city_name {
+  border-radius: 25px;
+  border: 1px solid #73ad21;
+  background-color: #73ad21;
+  width: 100px;
+  height: 30px;
+}
+
+form {
+  width: 50vw;
+  margin-left: 25vw;
+  padding: 5vw;
+}
+
+table {
+  border: 1px solid #73ad21;
+  box-shadow: 5px 10px #73ad21;
+  background-color: white;
+  width: 50vw;
+  margin-left: 25vw;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+th,
+tr {
+  padding: 10px;
+}
+td {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  color: #444;
+}
+
+.hidden {
+  opacity: 0;
+}

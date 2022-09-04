@@ -1,8 +1,50 @@
 <!DOCTYPE html>
-<head>
-  Welcome!
-</head>
+<html>
+  <head>
+    <h1>Welcome! Type the city below to get weather information.</h1>
+    <p>As of September 4, 2022</p>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-<body>
-  <p1>Test123</p1>
-</body>
+  <body>
+    <form>
+      <input type="text" class="city_name" />
+      <input type="submit" class="btn_city_name" />
+    </form>
+
+    <table id="information">
+      <tr>
+        <th class="city">Currently in, Izmir</th>
+        <td class="current_weather">Cloudy</td>
+      </tr>
+      <tr>
+        <td class="temp">Temperature</td>
+        <td class="temp_value">10C</td>
+      </tr>
+      <tr>
+        <td class="humidity">Humidity</td>
+        <td class="hum_value">%30</td>
+      </tr>
+      <tr>
+        <td class="max_temp">Maximum</td>
+        <td class="max_temp_value">15C</td>
+      </tr>
+      <tr>
+        <td class="min_temp">Minimum</td>
+        <td class="temp_value">5C</td>
+      </tr>
+      <tr>
+        <td class="rain_chance">Chance of Rain</td>
+        <td class="temp_value">%20</td>
+      </tr>
+    </table>
+
+    <p class="info">Designed and developed by Teoman Kirma.</p>
+    <a href="https://github.com/teomankirma">
+      <img
+        class="github_profile"
+        title="Check out my GitHub profile!"
+        src="github.png"
+    /></a>
+  </body>
+</html>
