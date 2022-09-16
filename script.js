@@ -52,10 +52,14 @@ const getWeatherInfo = async function (e) {
         <td class="temp_value">${Math.round(data.main.feels_like)}℃</td>
     </tr>`
     );
-
-    return console.log(data);
   } catch (err) {
-    console.log(err);
+    weatherInfoHTML.innerHTML = "";
+    weatherInfoHTML.insertAdjacentHTML(
+      "afterbegin",
+      `<tr>
+        <th>Couldn't find the city you are looking for 😕. Please make sure you wrote correctly. ${err}</th>
+        </tr>`
+    );
   }
 };
 
