@@ -1,6 +1,6 @@
 html {
   padding: 2rem;
-  /* Reference: <a href="https://www.freepik.com/free-vector/blue-sky-with-clouds-background-elegant_9191622.htm#query=weather%20background&position=1&from_view=keyword">Image by starline</a> on Freepik */
+  /* Reference: https://www.freepik.com/free-vector/blue-sky-with-clouds-background-elegant_9191622.htm#query=weather%20background&position=1&from_view=keyword Image by starline on Freepik */
   background-image: url(background.jpg);
   background-repeat: no-repeat;
   background-position: center;
