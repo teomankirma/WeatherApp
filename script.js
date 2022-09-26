@@ -32,23 +32,23 @@ const getWeatherInfo = async function (e) {
         <td class="current_weather">${data.weather[0].main}</td>
     </tr>
     <tr>
-        <td class="temp">Temperature</td>
+        <th class="temp">Temperature</th>
         <td class="temp_value">${Math.round(data.main.temp)}℃</td>
     </tr>
     <tr>
-        <td class="humidity">Humidity</td>
+        <th class="humidity">Humidity</th>
         <td class="hum_value">%${data.main.humidity}</td>
     </tr>
     <tr>
-        <td class="max_temp">Maximum</td>
+        <th class="max_temp">Maximum</th>
         <td class="max_temp_value">${Math.round(data.main.temp_max)}℃</td>
     </tr>
     <tr>
-        <td class="min_temp">Minimum</td>
+        <th class="min_temp">Minimum</th>
         <td class="temp_value">${Math.trunc(data.main.temp_min)}℃</td>
     </tr>
     <tr>
-        <td class="rain_chance">Feels Like</td>
+        <th class="rain_chance">Feels Like</th>
         <td class="temp_value">${Math.round(data.main.feels_like)}℃</td>
     </tr>`
     );
